@@ -90,7 +90,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        hm2: homerow_mods {
+        hm2: homerow_mods2 {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS2";
             #binding-cells = <2>;
