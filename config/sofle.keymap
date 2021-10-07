@@ -15,7 +15,7 @@
 #define NUMBER  4
 #define SCREEN  5
 
-&kscan0 { debounce-period = <10>; };
+&kscan0 { debounce-period = <20>; };
 
 / {
     combos {
