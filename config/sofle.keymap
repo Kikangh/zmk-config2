@@ -23,6 +23,16 @@
             key-positions = <30 44>;
             bindings = <&kp RET>;
         };
+        combo_bspc {
+            timeout-ms = <50>;
+            key-positions = <19 31>;
+            bindings = <&kp BSPC>;
+        };
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <18 30>;
+            bindings = <&kp DEL>;
+        };
         combo_w {
             timeout-ms = <50>;
             key-positions = <31 45>;
@@ -38,35 +48,25 @@
             key-positions = <38 39 40>;
             bindings = <&to ARROW>;
         };
-        combo_bspc {
-            timeout-ms = <50>;
-            key-positions = <19 31>;
-            bindings = <&kp BSPC>;
-        };
         combo_cut {
             timeout-ms = <50>;
-            key-positions = <26 38>;
+            key-positions = <14 26>;
             bindings = <&kp LG(C)>;
         };
         combo_copy {
             timeout-ms = <50>;
-            key-positions = <27 39>;
+            key-positions = <15 27>;
             bindings = <&kp LG(H)>;
         };
         combo_paste {
             timeout-ms = <50>;
-            key-positions = <28 40>;
+            key-positions = <16 28>;
             bindings = <&kp LG(U)>;
         };
         combo_paste_without_format {
             timeout-ms = <50>;
-            key-positions = <29 41>;
+            key-positions = <17 29>;
             bindings = <&kp LG(LA(LS(U)))>;
-        };
-        combo_DEL {
-            timeout-ms = <50>;
-            key-positions = <18 30>;
-            bindings = <&kp DEL>;
         };
     };
 };
@@ -104,7 +104,7 @@
             label = "HOMEROW_LAYERTAP";
             #binding-cells = <2>;
             tapping-term-ms = <260>;
-            quick_tap_ms = <0>;
+            quick_tap_ms = <-1>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         };
