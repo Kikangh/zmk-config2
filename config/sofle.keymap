@@ -72,12 +72,12 @@
         };
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <24 25>;
+            key-positions = <28 29>;
             bindings = <&kp TAB>;
         };
         combo_shift-tab {
             timeout-ms = <50>;
-            key-positions = <13 25>;
+            key-positions = <16 17>;
             bindings = <&kp LS(TAB)>;
         };
         combo_cancel {
