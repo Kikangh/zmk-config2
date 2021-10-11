@@ -152,7 +152,7 @@
 &kp TAB   &kp Q       &kp W        &kp E       &kp R           &kp T                                              &kp Y      &kp U         &kp I       &kp O        &kp P           &kp BSPC
 &kp LSHFT &ht ARROW A &hm1 LCTRL S &hm1 LALT D &hm1 LGUI F     &kp G                                              &kp H      &hm1 RGUI J   &hm1 RALT K &hm1 RCTRL L &hm1 RSHFT SEMI &kp SQT
 &kp F3    &kp Z       &kp X        &kp C       &kp V           &lt SCREEN B   &kp C_MUTE         &kp C_MUTE       &kp N      &kp M         &kp COMMA   &kp DOT      &kp FSLH        &kp BSLH
-                      kp LGUI      &kp LALT    &lt 1 LG(LA(H)) &mt LSHFT RET  &mt LGUI SPACE     &lt NUMBER SPACE &lt 2 RBKT &kp RC(SPACE) &kp RALT    &kp RCTL
+                      &kp LGUI     &kp LALT    &lt 1 LG(LA(H)) &mt LSHFT RET  &mt LGUI SPACE     &lt NUMBER SPACE &lt 2 RBKT &kp RC(SPACE) &kp RALT    &kp RCTL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
